@@ -4,9 +4,9 @@ Writes a simple REST API in Flask to provide users with a listing of all the blo
 
 1. The ping endpoint allows the GET method and simply returns a JSON object with 'success' == true.
 2. The posts endpoint allows the GET method and three query parameters:
-* tags -> for the user to specify a comma separated list of blog post tags (required parameter)
-* sortBy -> allows the user to specify a field to sort the posts by (optional)
-* direction -> specifies the direction for sorting (optional)
+  * tags -> for the user to specify a comma separated list of blog post tags (required parameter)
+  * sortBy -> allows the user to specify a field to sort the posts by (optional)
+  * direction -> specifies the direction for sorting (optional)
 
 
 
